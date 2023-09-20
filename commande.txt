@@ -1,0 +1,23 @@
+composer create-project laravel/laravel Maisonneuev
+php artisan make:model Etudiant
+php artisan make:model Ville
+
+php artisan make:migration create_etudiants_table --create=etudiants
+php artisan make:migration create_villes_table --create=villes
+
+php artisan make:factory VilleFactory --model=Ville
+
+php artisan make:seeder VilleSeeder
+
+php artisan make:factory EtudiantFactory --model=Etudiant
+
+
+php artisan make:seeder EtudiantSeeder
+
+php artisan make:controller EtudiantController
+php artisan make:controller VilleController
+
+
+
+
+
