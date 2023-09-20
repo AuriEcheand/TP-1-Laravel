@@ -17,7 +17,7 @@ php artisan make:seeder EtudiantSeeder
 php artisan make:controller EtudiantController
 php artisan make:controller VilleController
 
-
+https://github.com/AuriEcheand/TP-1-Laravel
 
 
 
